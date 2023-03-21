@@ -1,0 +1,107 @@
+/* *{
+border: 1px solid red;
+} */
+
+html{
+    color:rgb(230, 217, 199);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, rgb(16, 8, 55), rgb(23, 16, 58), rgb(38, 32, 65),rgb(49, 47, 61));
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+
+}
+body {
+    margin: 1rem 5rem;
+}
+
+p {
+font-size: 25px;
+}
+
+img {
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5) ;
+    }
+
+.favs-div {
+    font-size: 20px ;
+    text-align: center;
+}
+
+.favs-title-div {
+    color:rgb(61, 6, 83);
+    font-size: 40px;
+    filter: drop-shadow(2px 2px 1px rgb(39, 77, 215))
+    
+}
+
+.vid-title-div {
+
+}
+
+/* .vid-embed-div {
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5)
+} */
+
+
+.submit-button-div {
+
+}
+
+.wiki-links-div {
+
+}
+
+/* .btn {
+    background-color: rbga(0, 85, 185, 0.5);
+} */
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style-type: none;
+}
+
+.nav-links li, a:hover{
+color:rgba(213, 197, 228, 0.5);
+}
+
+
+button {
+    padding: 3px 20px;
+    background-color: rgba(136, 85, 185, 1);
+    border: solid;
+    border-radius: 10px ;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    font-size: 15px;
+    color:rgb(106, 218, 181);
+    margin-left: 20px;
+    
+}
+
+button:hover {
+    background-color: rgb(53, 146, 164) ;
+    transition: 0.4s;
+}
+
+#otherwise {
+font-size: 300px;
+text-align: center;
+
+}
+
+#other-foot {
+    text-align: center;
+}
+
+/* .nav-buttons-div:hover {
+    background-color: rbga(136, 85, 185, 0.5);
+} */

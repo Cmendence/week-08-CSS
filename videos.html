@@ -5,16 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Videos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
+ 
   <body>
-    <header><h1>Videos</h1></header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Top 5 Games</a><br /></li>
-        <li><a href="videos.html">Videos</a><br /></li>
-        <li><a href="contact.html">Contact Me</a><br /><br /></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <div class="nav-links">
+          <!-- <ul>
+            <li><a href="index.html">Home</a><br /></li>
+            <li><a href="videos.html">Videos</a><br /></li>
+            <li><a href="contact.html">Contact Me</a><br /></li>
+          </ul> -->
+          <li><a class="btn" href="index.html"><button>Home</button></a></li>
+          <li><a class="btn" href="videos.html"><button>Videos</button></a></li>
+          <li><a class="btn" href="contact.html"><button>Contact</button></a></li>
+        </div>
+      </nav>
+      
+    </header>
+    <section>
+     <div class="vid-embed-div">
     <!-- embedded trailers for my favorite games  -->
     <iframe
       width="400"
@@ -24,7 +38,8 @@
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
-    ></iframe
+    >
+    </iframe
     ><br /><br />
     <iframe
       width="400"
@@ -66,7 +81,11 @@
       allowfullscreen
     ></iframe
     ><br /><br />
+    </div>
+  </section>
 
+  <section>
+    <div class="wiki-links-div">
     <p><h3>Need more info?</h3></p>
     <table>
       <tr>
@@ -133,5 +152,7 @@
         <td></td>
       </tr>
     </table>
+  </div>
+  </section>
   </body>
 </html>
