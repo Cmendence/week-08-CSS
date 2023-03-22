@@ -103,14 +103,13 @@ height: 250;
 
 .wiki-table {
   border-collapse: collapse;
-  margin:25px 0;
+  margin: 25px 0;
 }
 
-.wiki-table th, tr {
-
+.wiki-table th,
+tr {
   text-align: left;
 }
-
 
 .wiki-table tr:nth-child(even) {
   background-color: rgba(29, 93, 95, 0.448);
@@ -328,5 +327,4 @@ input[type="submit"]:hover {
     order: -1;
     margin-bottom: 1rem;
   }
-
 }
