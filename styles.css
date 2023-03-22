@@ -12,7 +12,15 @@ header {
     display: flex;
     justify-content: center;
     padding: 30px 10%;
+}
 
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+footer {
+    text-align: center;
 }
 body {
     margin: 1rem 5rem;
@@ -22,7 +30,12 @@ p {
 font-size: 25px;
 }
 
+.ctr-img-div {
+    text-align: center;
+}
+
 img {
+    /* margin:auto; */
     margin: 1rem 1rem;
     border-radius: 1rem;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5) ;
@@ -44,11 +57,11 @@ img {
 
 }
 
-/* .vid-embed-div {
-    margin: 1rem 1rem;
-    border-radius: 1rem;
-    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5)
-} */
+.vid-embed-div {
+text-align: center;
+width: 500;
+height: 250;
+}
 
 
 .submit-button-div {
@@ -69,9 +82,9 @@ img {
     list-style-type: none;
 }
 
-.nav-links li, a:hover{
+/* .nav-links li, a:hover{
 color:rgba(213, 197, 228, 0.5);
-}
+} */
 
 
 button {
@@ -92,16 +105,63 @@ button:hover {
     transition: 0.4s;
 }
 
+button:active {
+    background-color: rgb(24, 20, 126);
+}
+
 #otherwise {
 font-size: 300px;
 text-align: center;
 
 }
 
-#other-foot {
-    text-align: center;
+.foot-link {
+ 
+    color:rgb(209, 132, 197);
 }
 
 /* .nav-buttons-div:hover {
     background-color: rbga(136, 85, 185, 0.5);
 } */
+
+/* a {
+ color: blueviolet;
+ background-color: transparent;
+         text-decoration: none;
+} */
+
+a:link {
+color: rgb(209, 132, 197);
+background-color: transparent;
+         text-decoration: none;
+}
+
+a:visited {
+    color: rgb(150, 30, 68);
+    background-color: transparent;
+         text-decoration: none;
+}
+
+a:hover {
+color: rgb(53, 146, 164);
+background-color: transparent;
+         text-decoration: none;
+}
+
+a:active {
+    color: rgb(26, 19, 105);
+    background-color: transparent;
+         text-decoration: none;
+}
+
+#twit-btn {
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+
+
+
+@media only screen 
+   and (min-width : 320px) {
+   /* Styles here */
+}
