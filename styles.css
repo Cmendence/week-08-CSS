@@ -27,7 +27,9 @@ h1 {
 }
 
 ul {
-padding: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
 }
 footer {
   text-align: center;
@@ -36,8 +38,9 @@ body {
   margin: 0rem 5rem 2rem;
 }
 
-p {
-  font-size: 25px;
+#main-p {
+  font-size: 30px;
+  text-align: center;
 }
 
 .ctr-img-div {
@@ -45,11 +48,18 @@ p {
 }
 
 img {
-  /* margin:auto; */
   margin: 1rem 1rem;
   border-radius: 1rem;
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5);
   overflow: auto;
+}
+
+.list-img {
+  float: left;
+  display: block;
+  margin: 0 20px 20px 0;
+  max-width: 100%;
+  text-align: center;
 }
 
 .list-img {
@@ -63,14 +73,11 @@ img {
   overflow: auto;
 }
 
-.favs-title-div {
+/* .favs-title-div {
   text-align: center;
   font-size: 40px;
   filter: drop-shadow(2px 2px 1px rgb(212, 142, 219));
-}
-
-.vid-title-div {
-}
+} */
 
 /* .vid-embed-div {
 text-align: center;
@@ -87,7 +94,7 @@ height: 250;
 }
 
 .vid-embed-div iframe {
-padding: 10px;
+  padding: 10px;
 }
 
 .submit-button-div {
@@ -165,6 +172,44 @@ li {
   list-style: none;
 }
 
+.favs-div ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favs-div li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.favs-div .image-box {
+  width: auto;
+  height: auto;
+  margin-right: 1em;
+}
+
+.favs-div .list-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.favs-div h2 {
+  margin: 0;
+}
+
+.favs-div p {
+  margin-top: 0;
+}
+
+.textbox {
+  width: 75%;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
+
 @media only screen and (max-width: 480px) {
   /* Styles here */
   img {
@@ -172,12 +217,19 @@ li {
     display: block;
     margin: auto;
     max-width: 100%;
+    text-align: center;
+  }
+
+  .list-img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
   }
 
   body {
     margin: 1rem 1rem;
   }
-/* 
+  /* 
   .vid-embed-div {
     max-width: 100%;
     height: 200px;
@@ -202,6 +254,15 @@ li {
   .nav-links li {
     margin-left: 0px;
     margin-bottom: 10px;
+  }
+
+  .game-list li {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-box {
+    order: -1;
+    margin-bottom: 1rem;
   }
 
 }

@@ -6,33 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Favorite games!</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
         <div class="nav-links">
           <ul>
-            <li><a href="index.html"><button>Home</button></a></li>
-            <li><a href="videos.html"><button>Videos</button></a></li>
-            <li><a href="contact.html"><button>Contact</button></a></li>
+            <li>
+              <a href="index.html"><button>Home</button></a>
+            </li>
+            <li>
+              <a href="videos.html"><button>Videos</button></a>
+            </li>
+            <li>
+              <a href="contact.html"><button>Contact</button></a>
+            </li>
           </ul>
         </div>
       </nav>
-      
     </header>
     <main>
       <h1>I love video games!</h1>
       <div class="ctr-img-div">
-      <img
-        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/42ffa933-2679-4723-9570-1fed4656c660/d3bmgjg-d6939745-e374-48da-84b1-3173925bad47.png"
-        width="400"
-        alt="Portal warning signs"
-      />
-    </div>
-      <p>
+        <img
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/42ffa933-2679-4723-9570-1fed4656c660/d3bmgjg-d6939745-e374-48da-84b1-3173925bad47.png"
+          width="400"
+          alt="Portal warning signs"
+        />
+      </div>
+      <p id="main-p">
         Nothing quite compares to playing a video game for the first time and
         getting that feeling of awe as you are immersed in a new world. With
         technology advancing faster than ever and thousands of new games being
@@ -45,121 +53,146 @@
     <!-- List of my favorite video games -->
     <div class="favs-div">
       <h3>Here are my top 5 video games</h3>
-      <ul>
+      <ul class="game-list">
         <li>
-          <br />
-          <img class="list-img"
-            src="https://assets-prd.ignimgs.com/2021/12/20/portal-cover-1640031155845.jpg"
-            width="250"
-            alt="Stick figure dropping into a portal"
-          /><br />
-          <div class="favs-title-div"><b>Portal</b></div>
-          <br />
-          I awoke in the Aperture Science Computer-Aided Enrichment Center for
-          the first time... and immediately threw both the radio and the coffee
-          cup into the toilet. Initially released as part of the Orange Box,
-          most thought Portal was a trial. In reality, it was a phenomena; a
-          physics game masterpiece that changed the world of puzzle games. You
-          play as Chell, a test subject at Aperture Science. Led by GLaDOS
-          (Genetic Lifeform and Disk Operating System), you take part in a
-          series of tests - physics-bending puzzles - using the Aperture Science
-          Handheld Portal Device. After Chell finishes the final test and is
-          offered her reward(cake), we quickly learn GLaDOS has other plans...
-          <br /><br />
-          But remember! The cake is a lie! ...Or is it?
-        </li>
-        <br />
-
-        <li>
-          <br />
-
-          <img class="list-img"
-            src="https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg"
-            width="250"
-            alt="Portal 2 robot P-body leaping from portal to portal while robot ATLAS watches"
-          /><br />
-          <div class="favs-title-div"><b>Portal 2</b></div>
-          <br />
-          Just when you think perfect can't get any more perfecterer... They
-          made a Portal 2! This game picks up after the events of the first
-          game, and re-raises the bar of what puzzle games could be. The story
-          of Chell, Cave Johnson, and Caroline is very easy to miss, but is so
-          deep that you will keep finding yourself wondering for weeks afterward
-          what could have been, or, what actually was...? <br /><br />
-          Also, they added co-op! After the events of Portal 2, GLaDOS has now
-          created two new reusable robots for testing. No longer is she burdened
-          with having to find humans to test her experiments! You play as ATLAS
-          and P-body in a whole new set of test chambers built for two people,
-          requiring two portal guns for twice the fun!
-        </li>
-        <br />
-        <li>
-          <br />
-          <img class="list-img"
-            src="https://cdn.akamai.steamstatic.com/steam/apps/210970/capsule_616x353.jpg?t=1598383120"
-            width="300"
-            alt="Forested island with a small cove and text 'The Witness' across the top"
-          /><br />
-          <div class="favs-title-div"><b>The Witness</b></div>
-          <br />
-          In The Witness, you awake in a dark chamber. After opening the door,
-          you find yourself on a beautiful but deserted island. You do not know
-          how you arrived here, but as you explore, you keep finding maze-type
-          puzzle panels. Using the tools provided, you progress through the game
-          and learn the many panel mechanics, and slowly unlock pieces of the
-          mystery surrounding this magical place.
-        </li>
-        <br />
-        <li>
-          <br />
-          <img class="list-img"
-            src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58"
-            width="300"
-            alt="The Legend of Zelda: Breath of the Wild"
-          /><br />
-          <div class="favs-title-div">
-            <b>The Legend of Zelda: Breath of the Wild</b>
+          <div class="image-box">
+            <img
+              class="list-img"
+              src="https://assets-prd.ignimgs.com/2021/12/20/portal-cover-1640031155845.jpg"
+              width="250"
+              alt="Stick figure dropping into a portal"
+            />
           </div>
-          <br />
-          Sorry, Link! But our Princess is in anoth.. Oh, she <i>is</i> in the
-          castle? And she's trapped! From the moment you step out of your
-          suspended animation chamber and see the vast Kingdom of Hyrule, you'll
-          be hooked. Fighting, cooking, flying, and saving the day! What more
-          could you ask for? The characters are lively. The story is engaging
-          and funny. I want to go there... But wait! What's that over there??
-          You can easily sink 50+ hours into this game and not finish the main
-          story.<br />
-          Fun for all play styles, BotW is the perfect blend of puzzle game and
-          open world RPG.
+          <div class="textbox">
+            <h2>1. Portal</h2>
+            <p>
+              I awoke in the Aperture Science Computer-Aided Enrichment Center
+              for the first time... and immediately threw both the radio and the
+              coffee cup into the toilet. Initially released as part of the
+              Orange Box, most thought Portal was a trial. In reality, it was a
+              phenomena; a physics game masterpiece that changed the world of
+              puzzle games. You play as Chell, a test subject at Aperture
+              Science. Led by GLaDOS (Genetic Lifeform and Disk Operating
+              System), you take part in a series of tests - physics-bending
+              puzzles - using the Aperture Science Handheld Portal Device. After
+              Chell finishes the final test and is offered her reward(cake), we
+              quickly learn GLaDOS has other plans...
+              <br /><br />
+              But remember! The cake is a lie! ...Or is it?
+            </p>
+          </div>
         </li>
-        <br />
+
         <li>
-          <br />
-          <img class="list-img"
-            src="https://assets-prd.ignimgs.com/2022/01/04/haloreach-1641338856260.jpg"
-            width="300"
-            alt="Five Spartan soldiers in the foreground. The sky is cloudy with something electric seen in the background. The text 'Halo Reach' is displayed across the top"
-          /><br />
-          <div class="favs-title-div"><b>Halo: Reach</b></div>
-          <br />
-          Halo: Reach is the only first-person shooter that ever made any sense
-          to me. You play as Master Chief, a towering supersoldier known as a
-          "Spartan", raised and trained from childhood for combat.<br />
-          Released in 2010, Halo was already a popular and established
-          franchise. I got into Halo: Reach because some friends were into it
-          (spoiler- we were all terrible). 13 years later, it is <i>still</i> my
-          go-to game when I need to unwind and shoot some bad guys. It differs
-          from Call of Duty type FPS games in that the Spartan soldiers run
-          faster, jump higher, and have armor as well as health. Also, with
-          Halo: Reach, the game introduced new abilities(called Loadouts) that
-          enable the player to do things like create a decoy hologram, use a jet
-          pack, and create an impenetrable shield for a short time.
+          <div class="image-box">
+            <img
+              class="list-img"
+              src="https://upload.wikimedia.org/wikipedia/en/f/f9/Portal2cover.jpg"
+              width="250"
+              alt="Portal 2 robot P-body leaping from portal to portal while robot ATLAS watches"
+            />
+          </div>
+          <div class="textbox">
+            <h2>2. Portal 2</h2>
+            <p>
+              Just when you think perfect can't get any more perfecterer... They
+              made a Portal 2! This game picks up after the events of the first
+              game, and re-raises the bar of what puzzle games could be. The
+              story of Chell, Cave Johnson, and Caroline is very easy to miss,
+              but is so deep that you will keep finding yourself wondering for
+              weeks afterward what could have been, or, what actually was...?
+              <br /><br />
+              Also, they added co-op! After the events of Portal 2, GLaDOS has
+              now created two new reusable robots for testing. No longer is she
+              burdened with having to find humans to test her experiments! You
+              play as ATLAS and P-body in a whole new set of test chambers built
+              for two people, requiring two portal guns for twice the fun!
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="image-box">
+            <img
+              class="list-img"
+              src="https://cdn.akamai.steamstatic.com/steam/apps/210970/capsule_616x353.jpg?t=1598383120"
+              width="300"
+              alt="Forested island with a small cove and text 'The Witness' across the top"
+            />
+          </div>
+          <div class="textbox">
+            <h2>3. The Witness</h2>
+            <p>
+              In The Witness, you awake in a dark chamber. After opening the
+              door, you find yourself on a beautiful but deserted island. You do
+              not know how you arrived here, but as you explore, you keep
+              finding maze-type puzzle panels. Using the tools provided, you
+              progress through the game and learn the many panel mechanics, and
+              slowly unlock pieces of the mystery surrounding this magical
+              place.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="image-box">
+            <img
+              class="list-img"
+              src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58"
+              width="300"
+              alt="The Legend of Zelda: Breath of the Wild"
+            />
+          </div>
+          <div class="textbox">
+            <h2>4. The Legend of Zelda: Breath of the Wild</h2>
+            <p>
+              Sorry, Link! But our Princess is in anoth.. Oh, she <i>is</i> in
+              the castle? And she's trapped! From the moment you step out of
+              your suspended animation chamber and see the vast Kingdom of
+              Hyrule, you'll be hooked. Fighting, cooking, flying, and saving
+              the day! What more could you ask for? The characters are lively.
+              The story is engaging and funny. I want to go there... But wait!
+              What's that over there?? You can easily sink 50+ hours into this
+              game and not finish the main story.<br />
+              Fun for all play styles, BotW is the perfect blend of puzzle game
+              and open world RPG.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="image-box">
+            <img
+              class="list-img"
+              src="https://assets-prd.ignimgs.com/2022/01/04/haloreach-1641338856260.jpg"
+              width="300"
+              alt="Five Spartan soldiers in the foreground. The sky is cloudy with something electric seen in the background. The text 'Halo Reach' is displayed across the top"
+            />
+          </div>
+          <div class="textbox">
+            <h2>5. Halo: Reach</h2>
+            <p>
+              Halo: Reach is the only first-person shooter that ever made any
+              sense to me. You play as Master Chief, a towering supersoldier
+              known as a "Spartan", raised and trained from childhood for
+              combat.<br />
+              Released in 2010, Halo was already a popular and established
+              franchise. I got into Halo: Reach because some friends were into
+              it (spoiler- we were all terrible). 13 years later, it is
+              <i>still</i> my go-to game when I need to unwind and shoot some
+              bad guys. It differs from Call of Duty type FPS games in that the
+              Spartan soldiers run faster, jump higher, and have armor as well
+              as health. Also, with Halo: Reach, the game introduced new
+              abilities(called Loadouts) that enable the player to do things
+              like create a decoy hologram, use a jet pack, and create an
+              impenetrable shield for a short time.
+            </p>
+          </div>
         </li>
       </ul>
     </div>
     <footer>
-      Head to the <a class="foot-link" href="videos.html">Videos</a> page to see the trailers from
-      my favorites!
+      Head to the <a class="foot-link" href="videos.html">Videos</a> page to see
+      the trailers from my favorites!
     </footer>
   </body>
 </html>
