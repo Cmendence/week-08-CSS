@@ -50,26 +50,29 @@
       />
     </div>
     <!-- contact form with radio for favorite game genre -->
-    <p>Tell me who you are and your favorite game genre!</p>
+    <h3>Tell me who you are and your favorite game genre!</h3>
     <form>
-      <input type="text" name="firstName" placeholder="First Name" required />
-      <br />
-      <input type="text" name="lastName" placeholder="Last Name" /> <br />
-      Favorite Game Genre: <br />
-      <input type="radio" name="game-type" value="RPG/JRPG" required />
-      RPG/JRPG<br />
-      <input type="radio" name="game-type" value="Shooter/FPS" />
-      Shooter/FPS<br />
-      <input type="radio" name="game-type" value="Strategy/RTS" />
-      Strategy/RTS<br />
-      <input type="radio" name="game-type" value="Puzzle" /> Puzzle<br />
-      <input type="radio" name="game-type" value="Platformer" />
-      Platformer<br />
-      <input type="radio" name="game-type" value="Sports" /> Sports<br /><br />
+      <input type="text" name="firstName" placeholder="Your Name" required />
+      <input type="text" name="email" placeholder="Email Address" required /> 
+      <h2>Favorite Game Genre:</h2>
+      <div class="radio-div">
+        <label><input type="radio" name="game-type" value="RPG/JRPG" required />
+      RPG/JRPG</label>
+      <label><input type="radio" name="game-type" value="Shooter/FPS" />
+      Shooter/FPS</label>
+      <label><input type="radio" name="game-type" value="Strategy/RTS" />
+      Strategy/RTS</label>
+      <label><input type="radio" name="game-type" value="Puzzle" /> Puzzle</label>
+      <label><input type="radio" name="game-type" value="Platformer" />
+      Platformer</label>
+      <label><input type="radio" name="game-type" value="Sports" /> Sports
+</div>
+
+    <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Tell me your favorite game!"></textarea>
+
       <input type="submit" value="Submit" />
     </form>
-    <br />
-    <br />
     <footer>
       Thanks for stopping by!
       <hr />
