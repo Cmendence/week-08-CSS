@@ -276,10 +276,9 @@ input[type="submit"]:hover {
   }
 
   #otherwise {
-    font-size: rem;
-    width: 100%;
-    text-align: center;
+font-size: 80px;
   }
+
   .nav-links ul {
     padding: 0;
     display: flex;
